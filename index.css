@@ -48,3 +48,15 @@ h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
 }
+
+@media (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-height: 500px) {
+  h1 {
+    color:red;
+  }
+}
