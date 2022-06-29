@@ -1,0 +1,51 @@
+.logo {
+width: 300px;
+height: auto;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+}
+
+li, a, button, h1, h2, body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+    color: #0088a9
+}
+
+button {
+  padding: 9px 25px;
+  background-color: #0088a9;
+  border: none;
+  border-radius:50px;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2{
+  font-size: 30px;
+}

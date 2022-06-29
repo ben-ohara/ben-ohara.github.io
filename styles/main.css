@@ -1,3 +1,62 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 2px solid black;
+  text-align: middle;
+  padding: 4px;
+}
+
 body {
-  background:red ;
+  background-color: whitesmoke;
+}
+
+img {
+  width: 200px;
+  height 200px;
+}
+
+.thin-green-border {
+  border-color: greenyellow;
+  border-width: 2px;
+  border-style: ridge;
+}
+
+.gold-background {
+  background-color: goldenrod;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+
+.blue-text {
+  color: green
+}
+
+h3 {
+  color: blue;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-height: 500px) {
+  h1 {
+    color:red;
+  }
 }
