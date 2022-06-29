@@ -1,7 +1,6 @@
 .logo {
   width: 300px;
   height: auto;
-  
   }
   
   * {
@@ -45,17 +44,32 @@
   
   h1 {
     font-size: 60px;
+    margin-left: 20px;
   }
   
-  h2{
-    font-size: 35px;
-  }
-  
-  h3 {
-    font-size: 27px;
-    color: #0088a9;
-  }
-
   p {
     margin-right: 500px;
+    margin-left: 20px;
   }
+
+  body {
+    margin-left: 20px;
+  }
+
+  .image1 {
+    height: 360px;
+    width: 640px;
+    margin: 40px 0px 40px 20px;
+
+  }
+
+  h3 {
+    margin-left: 20px;
+  }
+
+.thin-pink-border {
+  border-color: rgb(250, 0, 154);
+  border-width: 5px;
+  border-style: solid;
+}
+
