@@ -55,3 +55,9 @@ h3 {
   font-size: 27px;
   color: #0088a9;
 }
+
+
+
+body, li {
+  margin-left: 20px;
+}
