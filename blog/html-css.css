@@ -1,7 +1,7 @@
 .logo {
 width: 300px;
 height: auto;
-
+cursor: pointer;
 }
 
 * {
@@ -41,7 +41,15 @@ button {
   background-color: #0088a9;
   border: none;
   border-radius:50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
 }
+
+button:hover {
+  background-color: #044d5f;
+}
+
 
 h1 {
   font-size: 60px;
@@ -55,8 +63,6 @@ h3 {
   font-size: 27px;
   color: #0088a9;
 }
-
-
 
 body, li {
   margin-left: 20px;
