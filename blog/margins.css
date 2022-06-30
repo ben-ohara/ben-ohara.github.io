@@ -40,6 +40,12 @@
     background-color: #0088a9;
     border: none;
     border-radius:50px;
+    cursor: pointer;
+  transition: all 0.3s ease 0s;
+  }
+ 
+  button:hover {
+    background-color: #044d5f;
   }
   
   h1 {
