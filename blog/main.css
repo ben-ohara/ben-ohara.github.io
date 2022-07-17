@@ -72,12 +72,13 @@ body, li {
 .image2 {
   height: 400px;
   width: 550px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 p {
   margin-right: 200px;
+  margin-bottom: 5px;
 }
 
 .content {
