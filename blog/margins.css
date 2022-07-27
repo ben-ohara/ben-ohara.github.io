@@ -79,3 +79,6 @@
   border-style: solid;
 }
 
+@media (max-width: 600px) {
+  body {font-size: larger};
+}

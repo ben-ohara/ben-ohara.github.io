@@ -68,3 +68,7 @@ h1 {
   margin-bottom: 150px;
   margin-left: 15px
 }
+
+@media (max-width: 600px) {
+  body {font-size: larger};
+}
