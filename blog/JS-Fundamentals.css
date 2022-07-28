@@ -101,8 +101,20 @@
     margin-top: 20px;
   }
 
-  @media (max-width: 600px) {
-    body {font-size: larger};
+  @media (min-width: 320px) {
+    * {background-color: lightblue};
+  }
+  
+  @media (min-width: 768px) {
+    * {background-color: lightgreen};
+  }
+  
+  @media (min-width: 1200px) {
+    * {background-color: black};
+  }
+  
+  @media (min-width: 1500px) {
+    * {background-color: #24252a};
   }
 
   
